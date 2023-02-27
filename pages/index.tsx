@@ -1,9 +1,10 @@
-import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
-import Map from "@/pages/map";
+import Head from 'next/head';
+
+import Map from '@/pages/map';
+
+import styles from '@/styles/Home.module.css';
 
 export default function Home() {
-
   return (
     <>
       <Head>
@@ -13,8 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-            <Map />
+        <Map />
       </main>
     </>
-  )
+  );
 }
